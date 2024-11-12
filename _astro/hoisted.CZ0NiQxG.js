@@ -1,0 +1,1 @@
+import"./hoisted.Bz4vEzlT.js";import"./index.Bel2lkwj.js";const t=new URLSearchParams(window.location.search),o=Object.fromEntries(t.entries()),e=o.amount,n=await fetch("https://api.fxa.ir/payment/zibal/start",{method:"POST",headers:{"Content-Type":"application/x-www-form-urlencoded"},body:new URLSearchParams({amount:e})}),a=await n.text();console.log(a);window.location.href=a;
