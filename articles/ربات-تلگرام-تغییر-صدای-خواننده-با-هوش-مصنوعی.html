@@ -14,7 +14,25 @@
 </p> <p class="mb-8">
 با استفاده از ربات تلگرام افیکسا، می توانید صدای خواننده را
 					به صدای دلخواه خود تغییر دهید.
-</p> <div id="_try"> <p class="mb-8"> <a class="mr-4 inline-flex text-gray-900 bg-yellow-500 border-0 py-2 px-6 focus:outline-none hover:bg-yellow-700 hover:text-white rounded text-lg" href="https://t.me/fxa_ir_bot?start=fxair" target="_blank">امتحان کنید</a> </p> </div> <script type="module">async function a(){const e=document.referrer;if(!e||e.length<10)return;const r=new URL(e).host;return r!="www.google.com"&&r!="google.com"?void 0:"REWARD:"+(await(await fetch("https://api.fxa.ir/reward/generate")).text()).replaceAll('"',"").split(":").reverse().join("")}function o(e){navigator.clipboard.writeText(e)}async function n(){const e=await a();if(e){const t=document.getElementById("_try"),r=document.createElement("textarea");r.classList="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 ltr",r.rows=2,r.readOnly=!0,r.value=e,r.addEventListener("click",()=>o(e)),t?.appendChild(r)}}n();</script> </div> </div> </section> <footer class="w-full bg-gray-900"> <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8"> <div class="py-7 border-t border-gray-700"> <div class="flex items-center justify-center flex-col lg:space-y-0 space-y-8 lg:justify-between lg:flex-row"> <a href="https://fxa.ir/" class="flex justify-center">
+</p> <p class="mb-8"> <a class="mr-4 inline-flex text-gray-900 bg-yellow-500 border-0 py-2 px-6 focus:outline-none hover:bg-yellow-700 hover:text-white rounded text-lg" href="https://t.me/fxa_ir_bot?start=fxair" target="_blank">امتحان کنید</a> </p><div id="_reward" class="hidden w-full"> <div> <textarea id="_rewardTA" class="block
+            mb-4
+            p-2.5
+            w-full
+            text-sm
+            text-gray-900
+            bg-gray-50
+            rounded-lg
+            border
+            border-gray-300
+            focus:ring-blue-500
+            focus:border-blue-500
+            dark:bg-gray-700
+            dark:border-gray-600
+            dark:placeholder-gray-400
+            dark:text-white
+            dark:focus:ring-blue-500
+            dark:focus:border-blue-500
+            ltr" rows="2" readonly="true"></textarea> </div> <div class="flex justify-center"> <button id="_btnCopy" class="text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg p-2 inline-flex items-center justify-center"><span id="copy-message">کپی کن</span> <span>&nbsp;</span> <span id="default-icon"> <svg class="w-3.5 h-3.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 20"> <path d="M16 1h-3.278A1.992 1.992 0 0 0 11 0H7a1.993 1.993 0 0 0-1.722 1H2a2 2 0 0 0-2 2v15a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2Zm-3 14H5a1 1 0 0 1 0-2h8a1 1 0 0 1 0 2Zm0-4H5a1 1 0 0 1 0-2h8a1 1 0 1 1 0 2Zm0-5H5a1 1 0 0 1 0-2h2V2h4v2h2a1 1 0 1 1 0 2Z"></path> </svg> </span> <span id="success-icon" class="hidden"> <svg class="w-3.5 h-3.5 text-blue-700 dark:text-blue-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 12"> <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5.917 5.724 10.5 15 1.5"></path> </svg> </span> </button> </div> <script type="module">async function c(){const e=document.referrer;if(!e||e.length<10)return;const t=new URL(e).host;return t!="www.google.com"&&t!="google.com"?void 0:"REWARD:"+(await(await fetch("https://api.fxa.ir/reward/generate")).text()).replaceAll('"',"").split(":").reverse().join("")}function a(e){navigator.clipboard.writeText(e)}async function s(){const e=await c();if(e){const n=document.getElementById("_reward"),t=document.getElementById("_rewardTA"),o=document.getElementById("_btnCopy"),r=document.getElementById("copy-message");t.value=e,o.addEventListener("click",()=>{a(e),r.innerHTML="کپی شد"}),n.classList="w-full"}}s();</script> </div> </div> </div> </section> <footer class="w-full bg-gray-900"> <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8"> <div class="py-7 border-t border-gray-700"> <div class="flex items-center justify-center flex-col lg:space-y-0 space-y-8 lg:justify-between lg:flex-row"> <a href="https://fxa.ir/" class="flex justify-center">
 استدیو افیکسا
 </a> <span class="text-gray-400 block">©
 <a href="https://fxa.ir/">افیکسا</a> ۱۳۹۹-۱۴۰۴، کلیه حقوق محفوظ
